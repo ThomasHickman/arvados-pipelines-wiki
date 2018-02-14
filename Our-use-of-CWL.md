@@ -14,9 +14,10 @@ There are examples of both methods in our CWL codebase.
 
 ## Handling secondary files 
 ### Necessary secondary files
-
+Specify these in the CWL file, [docs](http://www.commonwl.org/v1.0/CommandLineTool.html#File)
 
 ### Optional secondary files 
 (eg input a file, with an index file if one exists)
+Specify these in the yaml inputs file
 
 ## Writing output to files
