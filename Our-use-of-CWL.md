@@ -21,3 +21,5 @@ Specify these in the CWL file, [docs](http://www.commonwl.org/v1.0/CommandLineTo
 Specify these in the yaml inputs file
 
 ## Writing output to files
+### If the script in the tool outputs to stdout
+### If the script writes to a file
