@@ -13,7 +13,10 @@ If there are more dependencies, such as R packages or Python packages we create 
 There are examples of both methods in our CWL codebase.
 
 ## Handling secondary files 
+### Necessary secondary files
 
-Including optional secondary files (eg input a file, with an index file if one exists)
+
+### Optional secondary files 
+(eg input a file, with an index file if one exists)
 
 ## Writing output to files
