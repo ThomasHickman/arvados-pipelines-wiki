@@ -11,3 +11,7 @@ If the tool involves a shell script calling a function from samtools, bcftools o
 If there are more dependencies, such as R packages or Python packages we create a new docker image that includes the script and all dependencies, and it is automatically uploaded to mercury.
 
 There are examples of both methods in our CWL codebase.
+
+## Handling secondary files 
+
+Including optional secondary files (eg input a file, with an index file if one exists)
