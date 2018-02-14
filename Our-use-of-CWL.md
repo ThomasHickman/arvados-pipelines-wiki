@@ -15,6 +15,7 @@ There are examples of both methods in our CWL codebase.
 ## Handling secondary files 
 ### Necessary secondary files
 Specify these in the CWL file, [docs](http://www.commonwl.org/v1.0/CommandLineTool.html#File)
+Example in ....cwl/tools/gatk-4.0GenomicsDBImport.cwl
 
 ### Optional secondary files 
 (eg input a file, with an index file if one exists)
