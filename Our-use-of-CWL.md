@@ -3,7 +3,7 @@ These notes are a work in progress! They reflect our use of CWL and other ways o
 # Overview
 CWL specifies tools which are linked into workflows. A tool is a single step which takes inputs, does some processing, and produces outputs. A workflow is a series of steps. Workflows can be built from sub-workflows. There can be branching and 'scattering' meaning apply the same tool in parallel to a set of inputs.
 
-# Running a script or program in a CWL tool.
+## Running a script or program in a CWL tool.
 The individual steps (tools) run in Docker containers. It is important for reliability and reproducibility that we use well defined containers. Normally for us that means that they are from our own [mercury docker hub](https://hub.docker.com/u/mercury/)
 
 If the tool involves a shell script calling a function from samtools, bcftools or similar and doing some processing, the generic mercury docker image for the correct version of samtools or bcftools can be used, and the script read in as an input file. 
@@ -15,3 +15,5 @@ There are examples of both methods in our CWL codebase.
 ## Handling secondary files 
 
 Including optional secondary files (eg input a file, with an index file if one exists)
+
+## Writing output to files
